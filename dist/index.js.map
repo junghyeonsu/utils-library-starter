@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["function add(a: number, b: number) {\n  return a + b;\n}\n\nfunction subtract(a: number, b: number) {\n  return a - b;\n}\n\nfunction multiply(a: number, b: number) {\n  return a * b;\n}\n\nfunction divide(a: number, b: number) {\n  return a / b;\n}\n\nexport {\n  add,\n  subtract,\n  multiply,\n  divide,\n};\n"],
+  "mappings": ";AAAA,SAAS,IAAI,GAAW,GAAW;AACjC,SAAO,IAAI;AACb;AAEA,SAAS,SAAS,GAAW,GAAW;AACtC,SAAO,IAAI;AACb;AAEA,SAAS,SAAS,GAAW,GAAW;AACtC,SAAO,IAAI;AACb;AAEA,SAAS,OAAO,GAAW,GAAW;AACpC,SAAO,IAAI;AACb;",
+  "names": []
+}
