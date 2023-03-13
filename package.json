@@ -3,19 +3,19 @@
   "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
     "prepack": "yarn build",
     "build": "yarn clean && yarn build:tsc && yarn build:js",
     "build:tsc": "yarn tsc --emitDeclarationOnly",
     "build:js": "node build.js",
     "clean": "rm -rf dist"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./src/index.cjs",
-      "types": "./dist/index.d.ts"
-    }
   },
   "files": [
     "dist",
